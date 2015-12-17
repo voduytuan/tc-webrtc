@@ -1,6 +1,6 @@
 # tc-webrtc-signaling
 
-
+- This WebRTC Signaling Server will work with simpleWebRTC library (WebRTC API wrapper). Learn more about simpleWebRTC at [https://simplewebrtc.com/](https://simplewebrtc.com/)
 - `/src/config/`, `/src/package.json`, `/src/server.js`, `/src/sockets.js`, `/src/test.js` were copied from [https://github.com/andyet/signalmaster](https://github.com/andyet/signalmaster) (v0.2.2)
 - By default, this image will start container of mastersignal (WebRTC Signaling Socket Server) in secure mode (https), you need to prepare PEM file and  mount your `.pem` file to `/src/certssl/site.pem` in container. See example of a docker run:
 
